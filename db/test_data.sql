@@ -1,0 +1,10 @@
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (1, 'oxymorphone hydrochloride', 'Endo Pharmaceuticals Inc.', '101.64', '1.73', '2.53');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (2, 'Undecylenic Acid', 'Rite Aid', '2413.68', '1.96', '4.70');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (3, 'meloxicam', 'Proficient Rx LP', '2285.07', '1.81', '4.28');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (4, 'White Petrolatum', 'Delta Brands Inc.', '977.93', '0.11', '3.59');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (5, 'Triclosan', 'Rejoice International, Inc.', '3747.27', '1.01', '1.42');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (6, 'Generic Drug', 'Wrong Aid', '3197.53', '0.39', '2.46');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (7, 'Pecan Pollen', 'ALK-Abello, Inc.', '3047.99', '0.75', '1.62');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (8, 'Hydroxychloroquine Sulfate', 'AvKARE, Inc.', '3283.31', '1.88', '3.39');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (9, 'Octisalate and Octinoxate', 'Cosmetica Laboratories Inc.', '1863.14', '1.32', '4.51');
+insert into products (p_id, p_desc, p_brand, p_price, p_weight, p_rating) values (10, 'IOPAMIDOL', 'BRACCO DIAGNOSTICS INC', '2654.17', '0.66', '2.15');

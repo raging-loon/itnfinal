@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="379.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.clevernameinc.itnfinal.forms.ConflictForm">
+   <children>
+      <Label alignment="TOP_LEFT" contentDisplay="RIGHT" text="Conflicting Changes" />
+      <TableView fx:id="mChangeView" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="mIDColumn" editable="false" prefWidth="75.0" sortable="false" text="Product ID" />
+          <TableColumn fx:id="mServerValue" editable="false" prefWidth="97.0" sortable="false" text="Updated Value" />
+            <TableColumn fx:id="mEditValue" editable="false" prefWidth="85.0" sortable="false" text="Edited Value" />
+            <TableColumn fx:id="mOldValue" editable="false" prefWidth="82.0" sortable="false" text="Old Value" />
+            <TableColumn fx:id="mTargetColumn" editable="false" prefWidth="66.0" sortable="false" text="Target" />
+            <TableColumn fx:id="mOptionsColumn" editable="false" prefWidth="154.0" sortable="false" text="Options" />
+        </columns>
+      </TableView>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#okButtonPressed" prefHeight="26.0" prefWidth="68.0" text="OK">
+               <tooltip>
+                  <Tooltip text="Close This Window" />
+               </tooltip>
+            </Button>
+            <Separator prefHeight="5.0" prefWidth="23.0" />
+            <Button mnemonicParsing="false" onAction="#deleteAllButtonPressed" text="Delete All">
+               <tooltip>
+                  <Tooltip text="Disregard All Changes. Keeps the table as it is now." />
+               </tooltip>
+            </Button>
+            <Separator prefHeight="5.0" prefWidth="23.0" />
+            <Button mnemonicParsing="false" onAction="#mergeAllButtonPressed" text="Merge All">
+               <tooltip>
+                  <Tooltip text="Merge All Changes. This will create staged Changes" />
+               </tooltip>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
